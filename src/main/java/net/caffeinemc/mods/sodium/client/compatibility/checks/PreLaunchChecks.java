@@ -23,7 +23,7 @@ public class PreLaunchChecks {
     private static final Logger LOGGER = LoggerFactory.getLogger("Sodium-EarlyDriverScanner");
 
     // This string should be determined at compile time, so it can be checked against the runtime version.
-    private static final String REQUIRED_LWJGL_VERSION = Version.VERSION_MAJOR + "." + Version.VERSION_MINOR + "." + Version.VERSION_REVISION;
+    private static final String REQUIRED_LWJGL_VERSION = "3.3.1";
 
     private static final String normalMessage = "You must change the LWJGL version in your launcher to continue. This is usually controlled by the settings for a profile or instance in your launcher.";
 
